@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="这是一个计算器"
+        android:textSize="20dp"
+        android:textColor="#DC143C"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="10dp"
+        android:background="#0000FF"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp">
+<!--        <TextView-->
+<!--            android:id="@+id/tv_b"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:scrollbars="vertical"-->
+<!--            android:textColor="#000000"-->
+<!--            android:background="@drawable/textview_circle_shape"-->
+<!--            android:textSize="17sp"/>-->
+        <EditText
+            android:id="@+id/et_result"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:background="@drawable/textview_circle_shape"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/bt_clear"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_circle_shape"
+            android:text="CE"
+            android:textSize="35dp"
+            android:textColor="#D2691E"/>
+
+        <Button
+            android:id="@+id/bt_chu"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_circle_shape"
+            android:text="÷"
+            android:textColor="#D2691E"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/bt_cheng"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_circle_shape"
+            android:text="×"
+            android:textSize="35dp"
+            android:textColor="#D2691E"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_circle_shape"
+            android:text="C"
+            android:textSize="35dp"
+            android:textColor="#D2691E"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/bt_7"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_circle_shape"
+            android:text="7"
+            android:textSize="35dp"
+            android:textColor="#000000"/>
+        <Button
+            android:id="@+id/bt_8"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_circle_shape"
+            android:text="8"
+            android:textSize="35dp"
+            android:textColor="#000000"/>
+        <Button
+            android:id="@+id/bt_9"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_circle_shape"
+            android:text="9"
+            android:textSize="35dp"
+            android:textColor="#000000"/>
+        <Button
+            android:id="@+id/bt_jia"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_circle_shape"
+            android:text="+"
+            android:textSize="35dp"
+            android:textColor="#D2691E"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_4"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_circle_shape"
+            android:text="4"
+            android:textSize="35dp"
+            android:textColor="#000000"/>
+        <Button
+            android:id="@+id/bt_5"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_circle_shape"
+            android:text="5"
+            android:textSize="35dp"
+            android:textColor="#000000"/>
+        <Button
+            android:id="@+id/bt_6"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_circle_shape"
+            android:text="6"
+            android:textSize="35dp"
+            android:textColor="#000000"/>
+        <Button
+            android:id="@+id/bt_jian"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_circle_shape"
+            android:text="-"
+            android:textSize="35dp"
+            android:textColor="#D2691E"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+
+
+        <Button
+            android:id="@+id/bt_1"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_circle_shape"
+            android:text="1"
+            android:textSize="35dp"
+            android:textColor="#000000"/>
+        <Button
+            android:id="@+id/bt_2"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_circle_shape"
+            android:text="2"
+            android:textSize="35dp"
+            android:textColor="#000000"/>
+        <Button
+            android:id="@+id/bt_3"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_circle_shape"
+            android:text="3"
+            android:textSize="35dp"
+            android:textColor="#000000"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_circle_shape"
+            android:text="√"
+            android:textSize="35dp"
+            android:textColor="#D2691E"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/bt_0"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_circle_shape"
+            android:text="0"
+            android:textSize="45dp"
+            android:textColor="#000000"/>
+        <Button
+            android:id="@+id/bt_dian"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_circle_shape"
+            android:text="."
+            android:textSize="35dp"
+            android:textColor="#D2691E" />
+        <Button
+            android:id="@+id/bt_deng"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_circle_shape"
+            android:text="="
+            android:textSize="35dp"
+            android:textColor="#D2691E"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
